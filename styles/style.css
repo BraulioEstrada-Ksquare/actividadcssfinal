@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: content-box;
+}
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    width: 50%;
+    display: flex;
+    background-color: whitesmoke;
+}
+aside{
+    width: 50%;
+    background-image: url("https://i0.wp.com/www.oasismania.co.uk/wp-content/uploads/2015/02/noel-gallagher.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.formulary{
+    display: inline-block;
+    margin: auto;
+}
+article.formulary > span{
+    margin: 5px;
+}
+h2{
+    margin-bottom: 10px;
+}
+article>span>p{
+    color: dimgray;
+}
+section.form{
+    margin-bottom: 15px;
+}
+section.form > label{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+input[type=email],input[type=password]{
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 7px;
+    width: 90%;
+}
+input[type="submit" i]{
+    margin-bottom: 5px;
+    width: 90%;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+form.formcomplete > span{
+    display: flex;
+    font-size: 0.9em;
+}
+span>section.form{
+    text-align: justify;
+    padding-right: 20px;
+    display: inline-block;
+}
+section.google > input{
+    background-color: white;
+    color: darkslategray;
+}
+aside{
+    display: flex;
+}
+section.quote{
+    margin-top: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    min-height: content;
+    padding: 18px;
+    backdrop-filter: blur(10px);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+section.quote>section{
+    margin-top: 15px;
+    border: 1px dotted;
+    display: flex;
+}
